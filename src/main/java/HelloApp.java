@@ -1,19 +1,6 @@
 import java.awt.*;
 public class HelloApp {
     public static void main(String[] args) {
-        StringBuilder namesBuilder = new StringBuilder();
-
-        if (args.length > 0) {
-            for (int i = 0; i < args.length; i++) {
-                namesBuilder.append(args[i]);
-                if (i < args.length - 1) {
-                    namesBuilder.append(", ");
-                }
-            }
-        } else {
-            namesBuilder.append("World");
-        }
-
-        System.out.println("Hello, " + namesBuilder.toString() + "!");
+        System.out.println("Hello World");
     }
 }
